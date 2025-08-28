@@ -1,0 +1,33 @@
+<!-- res/drawable/monitor.xml -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24">
+
+  <!-- 연회색 배경 원 -->
+  <path
+      android:fillColor="#F2F2F2"
+      android:pathData="M12,0A12,12 0 1,0 12,24A12,12 0 1,0 12,0Z" />
+
+  <!-- 모니터 본체 -->
+  <path
+      android:fillColor="#666666"
+      android:pathData="M6,7h12a1,1 0 0 1 1,1v8a1,1 0 0 1 -1,1H6a1,1 0 0 1 -1,-1V8a1,1 0 0 1 1,-1z" />
+
+  <!-- 화면 내부 (옵션: 흰색 화면 효과) -->
+  <path
+      android:fillColor="#FFFFFF"
+      android:pathData="M7,9h10v6H7z" />
+
+  <!-- 스탠드 기둥 -->
+  <path
+      android:fillColor="#666666"
+      android:pathData="M11,16h2v2h-2z" />
+
+  <!-- 받침대 -->
+  <path
+      android:fillColor="#666666"
+      android:pathData="M8,19h8v1H8z" />
+
+</vector>
