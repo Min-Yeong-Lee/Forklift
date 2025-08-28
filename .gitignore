@@ -1,0 +1,76 @@
+# -----------------------
+# OS 공통
+# -----------------------
+.DS_Store
+Thumbs.db
+
+# -----------------------
+# Android / Gradle
+# -----------------------
+**/.gradle/
+**/build/
+!gradle/wrapper/gradle-wrapper.jar
+local.properties
+**/.idea/
+*.iml
+*.iws
+*.ipr
+
+# 서명 키/비밀
+*.jks
+*.keystore
+*.keystore.properties
+signing.properties
+**/google-services.json
+
+# 산출물 (apk/aab)
+**/outputs/
+**/*.apk
+**/*.aab
+
+# -----------------------
+# PlatformIO (VSCode)
+# -----------------------
+**/.pio/
+.vscode/
+*.code-workspace
+
+# Python 캐시 (PlatformIO, Jetson scripts)
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.log
+
+# -----------------------
+# ROS2 / Jetson
+# -----------------------
+install/
+build/
+log/
+.colcon/
+.env
+*.bag
+*.bag.active
+*.db3
+
+# -----------------------
+# Modeling / CAD / Sim
+# -----------------------
+*.swp
+*.swo
+*.bak
+*.tmp
+*.backup
+*.blend1
+*.blend2
+
+# Fusion 360 / CAD exports
+*.f3d
+*.step
+*.stl
+*.obj
+
+# Gazebo / RViz temp
+*.world~
+*.rviz
